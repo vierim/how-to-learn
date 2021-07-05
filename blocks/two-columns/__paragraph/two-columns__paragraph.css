@@ -1,0 +1,9 @@
+.two-colums__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  margin: 0 0 30px 0;
+}
+
+.two-colums__paragraph:last-of-type {
+  margin-bottom:0px;
+}
