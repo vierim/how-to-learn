@@ -3,4 +3,7 @@
   margin: 0 auto;
   padding: 90px 0;
   color:#fff;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
 }

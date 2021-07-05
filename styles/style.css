@@ -1,5 +1,10 @@
-div, h2, h3, h4, img, p, li, iframe, a {
-
+@keyframes figure-rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .video {
@@ -59,6 +64,15 @@ div, h2, h3, h4, img, p, li, iframe, a {
   line-height: 51px;
   font-size: 36px;
   font-weight: 500;
+  transition: opacity 0.3s linear;
+}
+
+.feynman__link:hover {
+  opacity: .65;
+}
+
+.feynman__link:visited {
+  color: #2f80ed;
 }
 
 .khan {
@@ -127,4 +141,27 @@ div, h2, h3, h4, img, p, li, iframe, a {
   text-decoration: none;
   color: #2f80ed;
   margin: 69px 0 0 48px;
+  transition: opacity 0.3s linear;
+}
+
+.khan__buy-link:hover {
+  opacity: .65;
+}
+
+.khan__buy-link:visited {
+  color: #2f80ed;
+}
+
+.kaufman__triangle {
+  background-image: url(../images/triangle.svg);
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  right: -150px;
+  top: -50px;
+  z-index: 0;
+}
+
+.rotate {
+  animation: figure-rotation 20s linear infinite;
 }
