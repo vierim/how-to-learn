@@ -7,13 +7,15 @@ div, h2, h3, h4, img, p, li, iframe, a {
 }
 
 .video__iframes {
-  margin: 50px auto 0;
+  margin: 0 auto 0;
   display: flex;
   justify-content: center;
 }
 
 .video__iframe {
   margin-right: 20px;
+  position: relative;
+  top: 50px;
 }
 
 .video__iframe:last-child {
@@ -21,14 +23,16 @@ div, h2, h3, h4, img, p, li, iframe, a {
 }
 
 .oakley {
-  margin: 160px auto 0;
+  margin: 0 auto;
   background-color: #f2f2f2;
+  padding-top: 160px;
 }
 
 .feynman {
   background: url(../images/feinman.png) bottom left no-repeat #f2f2f2;
   height: 800px;
   position: relative;
+  padding-top: 80px;
 }
 
 .feynman__title {
@@ -36,7 +40,7 @@ div, h2, h3, h4, img, p, li, iframe, a {
   line-height: 1.15;
   font-size: 120px;
   font-weight: 700;
-  margin: 0 auto;
+  margin: 100px auto 0;
   text-align: center;
 }
 
@@ -59,6 +63,7 @@ div, h2, h3, h4, img, p, li, iframe, a {
 
 .khan {
   background: #f2f2f2;
+  padding-top: 100px;
 }
 
 .khan__container {
