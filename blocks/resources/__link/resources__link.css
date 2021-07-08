@@ -1,0 +1,7 @@
+.resources__link .resources__logo {
+  transition: transform .4s ease-in;
+}
+
+.resources__link:hover .resources__logo {
+  transform: scale(1.1);
+}
